@@ -14,7 +14,6 @@ Ext.define('RSS.view.NewsList', {
         itemTpl: [
             '<h1>{title}</h1>',
             '<p class="content">{contentSnippet}</p>',
-            '<span class="author">{author}</span>',
             '<span class="date">{friendlyDate}</span>',
         ],
         items: [
@@ -27,7 +26,6 @@ Ext.define('RSS.view.NewsList', {
                     {
                         /* Definition of the button that allows
                          * the user to go back to the feeds view. */
-                        text: 'Feeds',
                         action: 'showfeeds',
                         ui: 'back',
                         navigation: true

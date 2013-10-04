@@ -12,15 +12,20 @@
  * - LocalStorage 
  *
  */
+ 
+ // DO NOT DELETE - this directive is required for Sencha Cmd packages to work.
+ //@require @packageOverrides
 
-//Setting the Ext Loader configuration
+//<debug>
 Ext.Loader.setConfig({
     enabled: true,
     paths: {
+        'Ext': 'touch/src',
         'RSS.tux': 'tux',
         'RSS.override': 'override'
     }
 });
+//</debug>
 
 //Setting an alias for the custom JsonP proxy
 Ext.ClassManager.setAlias('RSS.tux.data.proxy.FeedBurner', 'proxy.feedburner');
@@ -33,6 +38,7 @@ Ext.application({
 
     //Setting the application requirements
     requires: [
+        'Ext.MessageBox',
         'RSS.override.data.proxy.Server',
         'RSS.tux.util.Url'
     ],

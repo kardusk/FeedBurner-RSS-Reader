@@ -33,7 +33,6 @@ Ext.define('RSS.view.NewsContainer', {
                     {
                         /* Definition of the button that allows the user
                          * to go back to the selected feed news list. */
-                        text: 'News',
                         action: 'shownews',
                         ui: 'back',
                         navigation: true

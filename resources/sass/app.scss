@@ -1,0 +1,44 @@
+.rss-feed-list {
+
+    .feed-list-item {
+	
+        padding: 5px;
+        background: #fff;
+        border: 1px solid #ccc;
+        border-bottom-width: 0;
+
+        .x-name {
+	        padding: 10px 0 0 10px;
+	        font-size: 1.1em;
+	    }
+	
+        &:last-child {
+            border-bottom-width: 1px;
+        }
+        
+    }
+
+}
+
+.rss-news-list {
+	
+	.x-list-item {
+	
+	    font-size: 0.8em;
+	
+        h1 {
+		    font-weight: bold;
+		}
+
+		span.date {
+			float: right;
+			padding-right: 20px;
+		}
+		
+	}
+
+}
+
+.x-feed-form .x-form-inner{
+    padding: 10px;
+}

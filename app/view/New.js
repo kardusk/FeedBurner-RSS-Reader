@@ -9,6 +9,7 @@ Ext.define('RSS.view.New', {
     extend: 'Ext.form.Panel',
     alias: 'widget.newfeed',
     config: {
+        cls: 'x-feed-form',
         items: [
             {
                 //Definition of the top docked toolbar
@@ -19,7 +20,6 @@ Ext.define('RSS.view.New', {
                     {    
                         /* Definition of the button which allows
                          * the user to go back to the feeds view. */
-                        text: 'Feeds',
                         action: 'showfeeds',
                         ui: 'back',
                         navigation: true
