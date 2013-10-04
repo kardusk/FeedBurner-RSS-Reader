@@ -1,13 +1,13 @@
 /**
  * @author Andrea Cammarata (@AndreaCammarata)
- * @class RSS.tux.fx.animation.TimeMachine
+ * @class Ext.tux.fx.animation.TimeMachine
  * @extends Ext.fx.animation.Abstract
  * Custom animation that will be used by the custom
  * TimeMachine Card Layout Style to simulate
  * the Apple TimeMachine effect sending the cards
  * back and forward in time.
  */
-Ext.define('RSS.tux.fx.animation.TimeMachine', {
+Ext.define('Ext.tux.fx.animation.TimeMachine', {
     extend: 'Ext.fx.animation.Abstract',
     alias: 'animation.timemachine',
     config: {

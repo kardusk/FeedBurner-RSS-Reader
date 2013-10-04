@@ -7,12 +7,12 @@
  */
 Ext.define('RSS.store.News', {
     extend: 'Ext.data.Store',
-    requires: ['RSS.tux.data.proxy.FeedBurner'],
+    requires: [
+        'RSS.model.News',
+        'Ext.tux.data.proxy.FeedBurner'
+    ],
     config: {
         model: 'RSS.model.News',
-        /* The store use a custom JsonP FeedBurner proxy
-          * that allow it to get all the news using
-          * the Google JSON Feed API */
         proxy: {
             type: 'feedburner',
             reader: {

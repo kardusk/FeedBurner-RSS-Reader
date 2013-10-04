@@ -1,12 +1,12 @@
 /**
  * @author Andrea Cammarata (@AndreaCammarata)
- * @class RSS.tux.util.Url
+ * @class Ext.tux.util.Url
  * @singleton
  * Class which define some usefull function that allows
  * the application to handle the current application url
  * to improve the support of history and deep linking features.
  */
-Ext.define('RSS.tux.util.Url',{
+Ext.define('Ext.tux.util.Url',{
     
     singleton: true,
     

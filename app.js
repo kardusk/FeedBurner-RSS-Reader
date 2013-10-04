@@ -21,14 +21,11 @@ Ext.Loader.setConfig({
     enabled: true,
     paths: {
         'Ext': 'touch/src',
-        'RSS.tux': 'tux',
-        'RSS.override': 'override'
+        'Ext.tux': 'tux',
+        'Ext.override': 'override'
     }
 });
 //</debug>
-
-//Setting an alias for the custom JsonP proxy
-Ext.ClassManager.setAlias('RSS.tux.data.proxy.FeedBurner', 'proxy.feedburner');
 
 //Definition of the application
 Ext.application({
@@ -39,8 +36,8 @@ Ext.application({
     //Setting the application requirements
     requires: [
         'Ext.MessageBox',
-        'RSS.override.data.proxy.Server',
-        'RSS.tux.util.Url'
+        'Ext.override.data.proxy.Server',
+        'Ext.tux.util.Url'
     ],
 
     //Including all the app Controllers

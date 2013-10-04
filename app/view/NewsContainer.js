@@ -9,8 +9,8 @@ Ext.define('RSS.view.NewsContainer', {
     extend: 'Ext.Container',
     alias: 'widget.newscontainer',
     requires: [
-        'RSS.tux.fx.animation.TimeMachine', 
-        'RSS.tux.fx.layout.card.TimeMachine'
+        'Ext.tux.fx.animation.TimeMachine', 
+        'Ext.tux.fx.layout.card.TimeMachine'
     ],
     config: {
         /* Notice how this view use a custom card layout animation

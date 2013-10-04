@@ -1,12 +1,12 @@
 /**
  * @author Andrea Cammarata (@AndreaCammarata)
- * @class RSS.tux.dataview.FeedListItem'
+ * @class Ext.tux.dataview.FeedListItem'
  * @extends Ext.dataview.component.DataItem
  * Custom DataView component used inside the Feeds DataView
  * to allow the user to Edit a Feed simply pressing a button
  * placed on every associated item.
  */
-Ext.define('RSS.tux.dataview.FeedListItem', {
+Ext.define('Ext.tux.dataview.FeedListItem', {
     
     extend: 'Ext.dataview.component.DataItem',
 

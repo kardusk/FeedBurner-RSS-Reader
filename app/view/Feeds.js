@@ -8,9 +8,7 @@
 Ext.define('RSS.view.Feeds', {
     extend: 'Ext.DataView',
     alias: 'widget.feedlist',
-    requires: [
-        'RSS.tux.dataview.FeedListItem'
-    ],
+    requires: ['Ext.tux.dataview.FeedListItem'],
     /* Definition of the view configuration.
      * Please not how the Dataview is configured to use
      * compomponents instead using the the element-based approach. */

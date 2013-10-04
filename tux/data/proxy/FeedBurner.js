@@ -1,14 +1,14 @@
 /**
  * @author Andrea Cammarata (@AndreaCammarata)
- * @class RSS.tux.data.proxy.FeedBurner
+ * @class Ext.tux.data.proxy.FeedBurner
  * @extends Ext.data.proxy.JsonP
  * Custom FeedBurner JsonP proxy.
  */
-Ext.define('RSS.tux.data.proxy.FeedBurner', {
+Ext.define('Ext.tux.data.proxy.FeedBurner', {
     
     extend: 'Ext.data.proxy.JsonP',
 
-    xtype: 'feedburner',
+    alias: 'proxy.feedburner',
     
     autoAppendParams: false,
 

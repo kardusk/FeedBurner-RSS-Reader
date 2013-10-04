@@ -14,7 +14,7 @@ Ext.define('RSS.view.NewsList', {
         itemTpl: [
             '<h1>{title}</h1>',
             '<p class="content">{contentSnippet}</p>',
-            '<span class="date">{friendlyDate}</span>',
+            '<span class="date">{friendlyDate}</span>'
         ],
         items: [
             {
